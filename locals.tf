@@ -36,10 +36,10 @@ locals {
   #########################################
   aft_feature_branch_name                       = "main"
   vcs_provider                                  = "github"
-  account_request_repo_name                     = "jdptechnc/aft-account-customizations"
-  global_customizations_repo_name               = "jdptechnc/aft-account-provisioning-customizations"
-  account_customizations_repo_name              = "jdptechnc/aft-account-request"
-  account_provisioning_customizations_repo_name = "jdptechnc/aft-global-customizations"
+  account_request_repo_name                     = "jdptechnc/aft-account-request"
+  global_customizations_repo_name               = "jdptechnc/aft-global-customizations"  
+  account_customizations_repo_name              = "jdptechnc/aft-account-customizations"
+  account_provisioning_customizations_repo_name = "jdptechnc/aft-account-provisioning-customizations"
   #########################################
   # AFT Terraform Distribution Variables - only the variables required by community edition terraform are shown here
   #########################################
